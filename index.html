@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mountain King – Mobile</title>
+
+    <!-- Tailwind CDN -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-serif text-gray-800 bg-white">
+
+    <header class="fixed top-0 left-0 w-full z-50">
+
+        <!-- NAV  background -->
+        <nav class="flex items-center justify-between px-40 py-5">
+            <img src="assets/your_logo.png" alt="Logo" class="h-10 object-contain" />
+
+            <button>
+                <img src="assets/burger-bar.png" alt="Menu" class="h-10 object-contain" />
+            </button>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- HERO CONTENT -->
+        <section class="relative font-serif bg-cover bg-center h-screen"
+            style="background-image: url('assets/bg_header.jpg');">
+            <div class="absolute inset-0 bg-black/40" aria-hidden="true"></div>
+
+            <div class="relative z-10 h-full flex flex-col items-center justify-center px-6 text-center text-white">
+                <p class="text-3xl tracking-widest opacity-80">
+                    In the hall of the
+                </p>
+
+                <h1 class="my-4 text-4xl font-bold font-serif leading-tight">
+                    Mountain King
+                </h1>
+
+                <p class="mb-8 pb-12 max-w-md text-sm text-white/95 opacity-90 leading-relaxed ">
+                    This is a placeholder for the hero content description. It gives a brief overview of the product
+                    orservice being offered.
+                </p>
+
+                <div class="flex gap-2 sm:gap-4 flex-col sm:flex-row">
+                    <a href="#"
+                        class="inline-flex items-center justify-center bg-green-300 px-5 py-2 text-sm font-semibold text-gray-900 rounded-none">
+                        Learn More
+                    </a>
+
+                    <a href="#"
+                        class="inline-flex items-center justify-center bg-pink-600 px-4 py-2 text-sm font-semibold text-white rounded-none -mt-px sm:mt-0">
+                        Download
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- SECTION FEATURES -->
+
+        <section class="flex flex-col items-center space-y-10 md:flex-row md:space-y-0 md:space-x-12
+         bg-white px-4 sm:px-6 md:px-20 py-12 md:py-20 md:justify-center">
+            <div class="text-center">
+                <img src="assets/pencil.png" class="mx-auto mb-4 h-10" alt="pencil" />
+                <h3 class="mb-2 font-semibold">Consectetur Risus</h3>
+                <p class="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eum
+                    nesciunt
+                    error commodi quisquam ipsam suscipit quas dolorum nisi autem harum sapiente, provident delectus
+                    officia
+                    voluptatem facere magnam ab. Doloremque?.</p>
+            </div>
+            <div class="text-center">
+                <img src="assets/camera.png" class="mx-auto mb-4 h-10" alt="camera" />
+                <h3 class="mb-2 font-semibold">Ultricies Aenean</h3>
+                <p class="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolore
+                    beatae
+                    error porro molestiae quam, vitae optio amet facilis doloribus quia itaque est tempora ea placeat
+                    eius
+                    alias velit officia!.</p>
+            </div>
+            <div class="text-center">
+                <img src="assets/bookmark.png" class="mx-auto mb-4 h-10" alt="bookmark " />
+                <h3 class="mb-2 font-semibold">Cras Sollicitudin</h3>
+                <p class="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque debitis
+                    labore aperiam voluptate esse beatae nobis quaerat, quasi tempora ratione optio, quisquam ipsa sit
+                    rerum
+                    a vero suscipit, voluptatem non..</p>
+            </div>
+        </section>
+
+        <!-- IMAGE Nuage + TEXT BLOCK -->
+
+        <section
+            class="relative min-h-[400px] w-full gap-20 bg-cover bg-center flex items-center justify-center min-[650px]:justify-end"
+            style="background-image: url('assets/bg_nuage.jpg');">
+
+            <div
+                class="h-screen w-full min-[650px]:w-[500px] bg-sky-600/30 backdrop-blur-sm p-8 min-[650px]:p-16 text-white flex flex-col justify-center min-[650px]:mr-20">
+
+                <h2
+                    class="text-3xl min-[650px]:text-4xl  mb-4 leading-tight min-[650px]:text-left text-white drop-shadow-lg">
+                    Ligula Mattis Ornare<br> Ultricies
+                </h2>
+
+                <h2 class="text-lg mb-6 opacity-95 font-medium  min-[650px]:text-left">
+                    Pellentesque Cursus Amet Parturient Etiam
+                </h2>
+
+                <p
+                    class="text-sm mb-12 opacity-90 max-w-xs mx-auto min-[650px]:mx-0  min-[650px]:text-left leading-relaxed">
+                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at
+                    eget
+                    metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                </p>
+
+                <div
+                    class="flex flex-col min-[650px]:flex-row items-center justify-center min-[650px]:justify-start gap-8">
+
+                    <div
+                        class="border gap-4 border-white/60 w-44 h-44 flex flex-col justify-center items-center text-center p-4">
+                        <span
+                            class="block text-[11px] uppercase tracking-[0.2em] mb-4 text-white font-bold">Ultricies</span>
+                        <span class="text-3xl font-light">23,578</span>
+                    </div>
+
+                    <div class="border gap-4  w-44 h-44 flex flex-col justify-center items-center text-center p-4">
+                        <span
+                            class="block text-[11px] uppercase tracking-[0.2em] mb-4 text-white font-bold">Fermentum</span>
+                        <span class="text-3xl font-light">12,702</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- TEXT take a look velo -->
+
+        <section class="flex flex-col gap-8 justify-center items-center bg-gray-50 py-16 px-6 md:px-20 lg:flex-row ">
+
+            <div class="flex flex-col gap-8 justify-center lg:w-1/2">
+
+                <h2 class="text-4xl font-serif text-slate-800 leading-tight md:text-4xl ">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </h2>
+
+
+                <p class="text-gray-600 leading-relaxed text-base">
+                    Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem
+                    nec
+                    elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec sed odio
+                    dui.
+                    Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id
+                    elit.
+                    Etiam porta sem malesuada magna mollis euismod.
+                </p>
+                <p class="text-gray-600 leading-relaxed text-base">
+                    Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at
+                    eget
+                    metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce
+                    dapibus,
+                    tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
+                    amet
+                    risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit
+                    libero,
+                    a pharetra augue.
+                </p>
+
+                <a href="#" class="w-48 text-center bg-rose-500 px-5 py-2 text-sm font-light text-white  ">
+                    Take a Look
+                </a>
+            </div>
+
+            <img src="assets/1200.jpeg" alt="" class="w-full md:w-3/4 lg:w-1/2 h-auto object-contain" />
+
+        </section>
+
+
+        <!-- section photcamera vintage -->
+
+        <section class="relative w-full px-6 md:pl-20 min-h-[300px] md:min-h-[400px] overflow-hidden">
+
+            <img src="assets/bg_appareil_photo.jpg" alt="Appareil photo vintage"
+                class="absolute top-0 left-0 w-full h-full object-cover">
+
+            <!-- section photcamera vintage -->
+
+            <div class="relative  z-10 h-full w-full md:w-[420px] bg-sky-600/30 backdrop-blur-sm p-8 md:p-16 text-white
+                flex flex-col justify-center">
+
+                <h3 class="text-2xl mb-4 leading-tight drop-shadow-lg opacity-70 md:text-3xl">
+
+                    Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent
+                    commodo cursus magna, vel scelerisque nisl consectetur et.
+                </h3>
+
+                <p class="text-base md:text-lg mb-6 opacity-95 font-light leading-relaxed">
+                    Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non
+                    commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam.
+                    Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in,
+                    egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+                </p>
+                <h4 class="text-xl mb-4 font-semibold drop-shadow-lg opacity-30">
+                    -Fermentum Dapibus
+                </h4>
+
+                <p class="text-sm md:text-base leading-relaxed opacity-90">
+                    Nibh Etiam Risus Bibendum<br>
+                    Nullam id dolor id nibh ultricies vehicula ut id elit
+                </p>
+            </div>
+        </section>
+
+<!-- GALLERY Mosaique -->
+
+
+        <section class="bg-gray-200 py-16 flex gap-4 md:px-4 lg:px-16 xl:px-24 ">
+
+            <!-- 1 colonne -->
+
+            <div class="flex flex-col gap-4 md:w-1/3 xl:w-2/3">
+                <img src="assets/300.jpeg" alt="Haut parleur">
+                <img class="md:hidden" src="assets/776.jpeg" alt="Mountain">
+                <img class="md:hidden" src="assets/800.jpeg" alt="Pont">
+                <div class="xl:flex gap-4">
+                    <img class="hidden xl:flex xl:w-1/2" src="assets/800.jpeg" alt=" pont">
+                    <div class="xl:w-1/2 xl:flex xl:flex-col gap-4">
+                        <img src="assets/400.jpeg" alt="Tramonto">
+                        <img class="" src="assets/2476.jpeg" alt="Camera Vintage">
+                    </div>
+
+                </div>
+
+                <img class="md:hidden" src="assets/439.jpeg" alt="Avion">
+                <img src="assets/140.jpeg" alt="motel">
+            </div>
+
+            <!-- 2 colonne -->
+            <div class="hidden md:flex xl:flex-col gap-4 md:w-1/3">
+                <img src="assets/776.jpeg" alt="Mountain">
+                <img class="hidden xl:flex" src="assets/439.jpeg" alt="Avion">
+
+            </div>
+
+            <!-- 3 colonne -->
+            <div class="hidden md:flex flex-col gap-4 md:w-1/3 xl:hidden">
+                <img src="assets/800.jpeg" alt="Pont">
+                <img class="" src="assets/439.jpeg" alt="Avion">
+            </div>
+        </section>
+
+ <!-- LOGOS -->
+
+        <div
+            class="flex flex-col md:flex-row flex-wrap items-center justify-center gap-8 md:gap-20 bg-white py-14 px-6 md:px-20 w-full overflow-hidden">
+            <img src="assets/logo-sample-01.jpg" class=" md:h-20 max-w-[150px] object-contain" />
+            <img src="assets/logo-sample-02.jpg" class="md:h-20 max-w-[150px] object-contain" />
+            <img src="assets/logo-sample-03.png" class="md:h-20 max-w-[150px] object-contain" />
+            <img src="assets/logo-sample-04.jpg" class="md:h-20 max-w-[150px] object-contain" />
+            <img src="assets/logo-sample-05.jpg" class="md:h-20 max-w-[150px] object-contain" />
+            <img src="assets/logo-sample-06.png" class="md:h-20 max-w-[150px] object-contain" />
+        </div>
+
+    </main>
+
+    <!-- Submit Newsletter -->
+    <section class="relative py-14 px-6 min-h-[400px] w-full flex items-center overflow-hidden">
+
+        <!-- IMAGE DE FOND FLOUTÉE -->
+        <div class="absolute inset-0 bg-cover bg-center"
+            style="background-image: url('assets/bg_newsletter.jpg'); filter: blur(22px); transform: scale(1.15);">
+        </div>
+        <div class="absolute inset-0 bg-black/50" aria-hidden="true"></div>
+
+        <!-- CONTENU -->
+        <div class="relative z-10 max-w-xl px-6 md:px-20 text-white">
+            <h2 class="mb-6 text-2xl font-semibold leading-tight">
+                Maecenas sed diam eget risus varius blandit sit amet non magna.
+            </h2>
+
+            <p class="mb-6 text-xl text-gray-200 leading-relaxed">
+                Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                vestibulum. Cras mattis consectetur purus sit amet fermentum.
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+            </p>
+
+
+            <form class="flex flex-col gap-4 items-start">
+
+                <input type="email" placeholder="Enter your email..."
+                    class="w-64 bg-white px-3 py-2 text-gray-800 border border-gray-300 focus:outline-none" />
+
+                <button type="submit" class="w-auto bg-pink-600 px-3 py-2 text-white font-light">
+                    Submit Newsletter
+                </button>
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    
+    <footer class="bg-gray-800 py-12 px-6  text-white w-full">
+        <div class="flex justify-between items-start max-w-4xl mx-auto w-full">
+            <!-- Logo a sinistra  -->
+            <div class="flex flex-col gap-4 items-start text-left">
+                <p class="font-semibold text-2xl text-white">Your Logo</p>
+                <p class="text-xl text-gray-400 mt-2">
+                    © 2016 your Company· Disigned and Devloped by
+                    <a href="#" class=" no-underline text-gray-400 hover:text-white transition-colors duration-200">the
+                        maitre jet d'ail
+                        use</a>
+                </p>
+            </div>
+
+            <!-- Social Media a destra -->
+
+            <ul class="flex gap-4 items-center">
+                <li>
+                    <a href="#">
+                        <img src="assets/facebook.png" alt="Facebook"
+                            class="w-6 h-6 hover:opacity-75 transition-opacity ">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/twitter.png" alt="Twitter"
+                            class="w-6 h-6 hover:opacity-75 transition-opacity ">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/web.png" alt="Sito Web" class="w-6 h-6 hover:opacity-75 transition-opacity ">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/discord.png" alt="Discord"
+                            class="w-6 h-6 hover:opacity-75 transition-opacity ">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
